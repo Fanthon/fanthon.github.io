@@ -590,7 +590,7 @@
 
   <div class="powered-by">
   <i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
-    本站访客数:<span id="busuanzi_value_site_uv"></span>
+    Visitor:<span id="busuanzi_value_site_uv"></span>
   </span>
   </div>
 
@@ -636,7 +636,7 @@
     var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours)
     var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes)
     var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds)
-    document.getElementById("sitetime").innerHTML="  已运行"+diffYears+" 年 "+diffDays+" 天<br>"
+    document.getElementById("sitetime").innerHTML="<span>Run:"+diffYears+" Year "+diffDays+" Days<br>"
   }
   siteTime()
 </script>
