@@ -582,7 +582,7 @@
     var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours)
     var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes)
     var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds)
-    document.getElementById("sitetime").innerHTML="&nbsp;&nbsp;Run：&ensp;"+diffDays+"days<br>"
+    document.getElementById("sitetime").innerHTML="&nbsp;&nbsp;Run： "+diffDays+" days<br>"
   }
   siteTime()
 </script>
