@@ -861,7 +861,7 @@
 
   <div class="powered-by">
   <i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
-    Visitor:<span id="busuanzi_value_site_uv"></span>
+    Visitor:&nbsp;<span id="busuanzi_value_site_uv"></span>
   </span>
   </div>
 
@@ -909,7 +909,7 @@
     var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours)
     var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes)
     var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds)
-    document.getElementById("sitetime").innerHTML=" Run:"+diffDays+" Days<br>"
+    document.getElementById("sitetime").innerHTML="&nbsp;&nbsp;Run:&nbsp;"+diffDays+" Days<br>"
   }
   siteTime()
 </script>
